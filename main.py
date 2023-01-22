@@ -9,7 +9,11 @@ def main():
     ######################################################
     # Use this variable for the result
     ######################################################
-    main.numbers = []
+    main.numbers = input().split()
+    for i in range(len(main.numbers)):
+        main.numbers[i] = int(main.numbers[i])
+    print(main.numbers)
+
     ######################################################
     # Code your program here
 
