@@ -5,20 +5,15 @@
 # numbers = list(map(int, input().split()))
 
 def main():
-    numbers = input().split()
-    for i in range(len(numbers)):
-        numbers[i] = int(numbers[i])
-    print(numbers)
 
     ######################################################
     # Use this variable for the result
     ######################################################
-    main.evenlist = []
+    main.numbers = []
     ######################################################
-
     # Code your program here
 
-    print(main.evenlist)
+    print("After insertion\n", main.numbers)
 
 
 if __name__ == '__main__':
