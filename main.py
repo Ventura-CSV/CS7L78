@@ -1,23 +1,25 @@
-##################################################
-# Comlete your code here
-##################################################
+def getInput():
+    """
+    ########################################
+    Code Your Program here
+    ########################################
+    """
 
-# numbers = list(map(int, input().split()))
+
+def insertOne(numbers):
+    """
+    ########################################
+    Code Your Program here
+    Do not use 'sort' keyword
+    ########################################
+    """
+    userval = int(input('Enter the insertion value: '))
+
 
 def main():
-
-    ######################################################
-    # Use this variable for the result
-    ######################################################
-    main.numbers = input().split()
-    for i in range(len(main.numbers)):
-        main.numbers[i] = int(main.numbers[i])
-    print(main.numbers)
-
-    ######################################################
-    # Code your program here
-
-    print("After insertion\n", main.numbers)
+    numbers = getInput()    # test input: 10 15 25 30 35
+    insertOne(numbers)      # test input 20
+    print(numbers)         # list value after insertion
 
 
 if __name__ == '__main__':
